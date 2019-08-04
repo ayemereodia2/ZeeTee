@@ -12,6 +12,11 @@
 		0464173F22F618E000D27A1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0464173D22F618E000D27A1B /* Main.storyboard */; };
 		0464174122F618E100D27A1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0464174022F618E100D27A1B /* Assets.xcassets */; };
 		0464174422F618E100D27A1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0464174222F618E100D27A1B /* LaunchScreen.storyboard */; };
+		0464175222F61B8E00D27A1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0464175122F61B8E00D27A1B /* AppDelegate.swift */; };
+		0464175422F61B8E00D27A1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0464175322F61B8E00D27A1B /* ViewController.swift */; };
+		0464175722F61B8E00D27A1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0464175522F61B8E00D27A1B /* Main.storyboard */; };
+		0464175C22F61B8E00D27A1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0464175A22F61B8E00D27A1B /* LaunchScreen.storyboard */; };
+		0464176222F61BF600D27A1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0464174022F618E100D27A1B /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +27,23 @@
 		0464174022F618E100D27A1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0464174322F618E100D27A1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0464174522F618E100D27A1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0464174F22F61B8E00D27A1B /* ZeeAdmin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZeeAdmin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0464175122F61B8E00D27A1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0464175322F61B8E00D27A1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0464175622F61B8E00D27A1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0464175B22F61B8E00D27A1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0464175D22F61B8E00D27A1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		0464173322F618E000D27A1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0464174C22F61B8E00D27A1B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,7 +56,9 @@
 		0464172D22F618E000D27A1B = {
 			isa = PBXGroup;
 			children = (
+				0464176122F61BBF00D27A1B /* Shared */,
 				0464173822F618E000D27A1B /* ZeeTee */,
+				0464175022F61B8E00D27A1B /* ZeeAdmin */,
 				0464173722F618E000D27A1B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				0464173622F618E000D27A1B /* ZeeTee.app */,
+				0464174F22F61B8E00D27A1B /* ZeeAdmin.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,11 +78,30 @@
 				0464173922F618E000D27A1B /* AppDelegate.swift */,
 				0464173B22F618E000D27A1B /* ViewController.swift */,
 				0464173D22F618E000D27A1B /* Main.storyboard */,
-				0464174022F618E100D27A1B /* Assets.xcassets */,
 				0464174222F618E100D27A1B /* LaunchScreen.storyboard */,
 				0464174522F618E100D27A1B /* Info.plist */,
 			);
 			path = ZeeTee;
+			sourceTree = "<group>";
+		};
+		0464175022F61B8E00D27A1B /* ZeeAdmin */ = {
+			isa = PBXGroup;
+			children = (
+				0464175122F61B8E00D27A1B /* AppDelegate.swift */,
+				0464175322F61B8E00D27A1B /* ViewController.swift */,
+				0464175522F61B8E00D27A1B /* Main.storyboard */,
+				0464175A22F61B8E00D27A1B /* LaunchScreen.storyboard */,
+				0464175D22F61B8E00D27A1B /* Info.plist */,
+			);
+			path = ZeeAdmin;
+			sourceTree = "<group>";
+		};
+		0464176122F61BBF00D27A1B /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				0464174022F618E100D27A1B /* Assets.xcassets */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +124,23 @@
 			productReference = 0464173622F618E000D27A1B /* ZeeTee.app */;
 			productType = "com.apple.product-type.application";
 		};
+		0464174E22F61B8E00D27A1B /* ZeeAdmin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0464175E22F61B8E00D27A1B /* Build configuration list for PBXNativeTarget "ZeeAdmin" */;
+			buildPhases = (
+				0464174B22F61B8E00D27A1B /* Sources */,
+				0464174C22F61B8E00D27A1B /* Frameworks */,
+				0464174D22F61B8E00D27A1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZeeAdmin;
+			productName = ZeeAdmin;
+			productReference = 0464174F22F61B8E00D27A1B /* ZeeAdmin.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -95,6 +152,9 @@
 				ORGANIZATIONNAME = wox1;
 				TargetAttributes = {
 					0464173522F618E000D27A1B = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					0464174E22F61B8E00D27A1B = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -113,6 +173,7 @@
 			projectRoot = "";
 			targets = (
 				0464173522F618E000D27A1B /* ZeeTee */,
+				0464174E22F61B8E00D27A1B /* ZeeAdmin */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +189,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0464174D22F61B8E00D27A1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0464175C22F61B8E00D27A1B /* LaunchScreen.storyboard in Resources */,
+				0464176222F61BF600D27A1B /* Assets.xcassets in Resources */,
+				0464175722F61B8E00D27A1B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,6 +208,15 @@
 			files = (
 				0464173C22F618E000D27A1B /* ViewController.swift in Sources */,
 				0464173A22F618E000D27A1B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0464174B22F61B8E00D27A1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0464175422F61B8E00D27A1B /* ViewController.swift in Sources */,
+				0464175222F61B8E00D27A1B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +235,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				0464174322F618E100D27A1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0464175522F61B8E00D27A1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0464175622F61B8E00D27A1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0464175A22F61B8E00D27A1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0464175B22F61B8E00D27A1B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -314,6 +410,42 @@
 			};
 			name = Release;
 		};
+		0464175F22F61B8E00D27A1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LB5YMG5W6W;
+				INFOPLIST_FILE = ZeeAdmin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wox1.ZeeAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0464176022F61B8E00D27A1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LB5YMG5W6W;
+				INFOPLIST_FILE = ZeeAdmin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wox1.ZeeAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -331,6 +463,15 @@
 			buildConfigurations = (
 				0464174922F618E100D27A1B /* Debug */,
 				0464174A22F618E100D27A1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0464175E22F61B8E00D27A1B /* Build configuration list for PBXNativeTarget "ZeeAdmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0464175F22F61B8E00D27A1B /* Debug */,
+				0464176022F61B8E00D27A1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
