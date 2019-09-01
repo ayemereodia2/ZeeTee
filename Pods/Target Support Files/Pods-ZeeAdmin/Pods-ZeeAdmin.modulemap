@@ -1,0 +1,6 @@
+framework module Pods_ZeeAdmin {
+  umbrella header "Pods-ZeeAdmin-umbrella.h"
+
+  export *
+  module * { export * }
+}

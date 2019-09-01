@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040FBB442304A1B000E7BE6A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040FBB432304A1B000E7BE6A /* Constants.swift */; };
+		040FBB47231C564A00E7BE6A /* RoundedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040FBB46231C564A00E7BE6A /* RoundedViews.swift */; };
 		0464173A22F618E000D27A1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0464173922F618E000D27A1B /* AppDelegate.swift */; };
 		0464173C22F618E000D27A1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0464173B22F618E000D27A1B /* ViewController.swift */; };
 		0464173F22F618E000D27A1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0464173D22F618E000D27A1B /* Main.storyboard */; };
@@ -18,9 +20,18 @@
 		0464175C22F61B8E00D27A1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0464175A22F61B8E00D27A1B /* LaunchScreen.storyboard */; };
 		0464176222F61BF600D27A1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0464174022F618E100D27A1B /* Assets.xcassets */; };
 		0464176422F77E9200D27A1B /* LoginStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0464176322F77E9200D27A1B /* LoginStoryBoard.storyboard */; };
+		04AD365223020DDB0034D5FF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04AD365123020DDB0034D5FF /* GoogleService-Info.plist */; };
+		04AD36542302103F0034D5FF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04AD36532302103F0034D5FF /* GoogleService-Info.plist */; };
+		04AD365A23029C6D0034D5FF /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD365923029C6D0034D5FF /* LoginVC.swift */; };
+		04AD365C23029C8F0034D5FF /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD365B23029C8F0034D5FF /* RegisterVC.swift */; };
+		04AD365F2302A6F00034D5FF /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD365E2302A6F00034D5FF /* extension.swift */; };
+		5F1E318DD9D32AB28FF654EF /* Pods_ZeeTee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFEA65797C686ED0C7D5DC36 /* Pods_ZeeTee.framework */; };
+		BA0E6783D7381BBE630F12E3 /* Pods_ZeeAdmin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6505D58D5B601BBF9C25433C /* Pods_ZeeAdmin.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		040FBB432304A1B000E7BE6A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		040FBB46231C564A00E7BE6A /* RoundedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedViews.swift; sourceTree = "<group>"; };
 		0464173622F618E000D27A1B /* ZeeTee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZeeTee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0464173922F618E000D27A1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0464173B22F618E000D27A1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +46,17 @@
 		0464175B22F61B8E00D27A1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0464175D22F61B8E00D27A1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0464176322F77E9200D27A1B /* LoginStoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginStoryBoard.storyboard; sourceTree = "<group>"; };
+		04AD365123020DDB0034D5FF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		04AD36532302103F0034D5FF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		04AD365923029C6D0034D5FF /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		04AD365B23029C8F0034D5FF /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		04AD365E2302A6F00034D5FF /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
+		6505D58D5B601BBF9C25433C /* Pods_ZeeAdmin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZeeAdmin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7101F563CEBCE03F43B6631C /* Pods-ZeeTee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZeeTee.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZeeTee/Pods-ZeeTee.debug.xcconfig"; sourceTree = "<group>"; };
+		BBC19DAB2B5481DDCBA54F47 /* Pods-ZeeTee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZeeTee.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZeeTee/Pods-ZeeTee.release.xcconfig"; sourceTree = "<group>"; };
+		EFEA65797C686ED0C7D5DC36 /* Pods_ZeeTee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZeeTee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F372A604985BF8377EE1D9BE /* Pods-ZeeAdmin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZeeAdmin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZeeAdmin/Pods-ZeeAdmin.debug.xcconfig"; sourceTree = "<group>"; };
+		FA783D2E631901113A5B0F80 /* Pods-ZeeAdmin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZeeAdmin.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZeeAdmin/Pods-ZeeAdmin.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F1E318DD9D32AB28FF654EF /* Pods_ZeeTee.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,12 +72,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA0E6783D7381BBE630F12E3 /* Pods_ZeeAdmin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		040FBB45231C563300E7BE6A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				040FBB46231C564A00E7BE6A /* RoundedViews.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		0464172D22F618E000D27A1B = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +94,8 @@
 				0464173822F618E000D27A1B /* ZeeTee */,
 				0464175022F61B8E00D27A1B /* ZeeAdmin */,
 				0464173722F618E000D27A1B /* Products */,
+				16EFD9986E7ABABC8B1D82AE /* Pods */,
+				A7670280F9CAFC69A46D9B3D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,10 +111,12 @@
 		0464173822F618E000D27A1B /* ZeeTee */ = {
 			isa = PBXGroup;
 			children = (
+				04AD365823029C2E0034D5FF /* StoryBoards */,
+				04AD365723029C270034D5FF /* Model */,
+				04AD365623029C1E0034D5FF /* View */,
+				04AD365523029C140034D5FF /* Controller */,
+				04AD365123020DDB0034D5FF /* GoogleService-Info.plist */,
 				0464173922F618E000D27A1B /* AppDelegate.swift */,
-				0464173B22F618E000D27A1B /* ViewController.swift */,
-				0464176322F77E9200D27A1B /* LoginStoryBoard.storyboard */,
-				0464173D22F618E000D27A1B /* Main.storyboard */,
 				0464174222F618E100D27A1B /* LaunchScreen.storyboard */,
 				0464174522F618E100D27A1B /* Info.plist */,
 			);
@@ -91,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				0464175122F61B8E00D27A1B /* AppDelegate.swift */,
+				04AD36532302103F0034D5FF /* GoogleService-Info.plist */,
 				0464175322F61B8E00D27A1B /* ViewController.swift */,
 				0464175522F61B8E00D27A1B /* Main.storyboard */,
 				0464175A22F61B8E00D27A1B /* LaunchScreen.storyboard */,
@@ -102,9 +139,73 @@
 		0464176122F61BBF00D27A1B /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				040FBB45231C563300E7BE6A /* View */,
+				04AD365D2302A6DE0034D5FF /* Utils */,
 				0464174022F618E100D27A1B /* Assets.xcassets */,
 			);
 			path = Shared;
+			sourceTree = "<group>";
+		};
+		04AD365523029C140034D5FF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0464173B22F618E000D27A1B /* ViewController.swift */,
+				04AD365923029C6D0034D5FF /* LoginVC.swift */,
+				04AD365B23029C8F0034D5FF /* RegisterVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04AD365623029C1E0034D5FF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04AD365723029C270034D5FF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04AD365823029C2E0034D5FF /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				0464173D22F618E000D27A1B /* Main.storyboard */,
+				0464176322F77E9200D27A1B /* LoginStoryBoard.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		04AD365D2302A6DE0034D5FF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				04AD365E2302A6F00034D5FF /* extension.swift */,
+				040FBB432304A1B000E7BE6A /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		16EFD9986E7ABABC8B1D82AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F372A604985BF8377EE1D9BE /* Pods-ZeeAdmin.debug.xcconfig */,
+				FA783D2E631901113A5B0F80 /* Pods-ZeeAdmin.release.xcconfig */,
+				7101F563CEBCE03F43B6631C /* Pods-ZeeTee.debug.xcconfig */,
+				BBC19DAB2B5481DDCBA54F47 /* Pods-ZeeTee.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A7670280F9CAFC69A46D9B3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6505D58D5B601BBF9C25433C /* Pods_ZeeAdmin.framework */,
+				EFEA65797C686ED0C7D5DC36 /* Pods_ZeeTee.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -114,9 +215,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0464174822F618E100D27A1B /* Build configuration list for PBXNativeTarget "ZeeTee" */;
 			buildPhases = (
+				DD4B63601EF6AC29DFF69209 /* [CP] Check Pods Manifest.lock */,
 				0464173222F618E000D27A1B /* Sources */,
 				0464173322F618E000D27A1B /* Frameworks */,
 				0464173422F618E000D27A1B /* Resources */,
+				F13D048AAF40AC88991C58BD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -131,9 +234,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0464175E22F61B8E00D27A1B /* Build configuration list for PBXNativeTarget "ZeeAdmin" */;
 			buildPhases = (
+				72CA50C5878CA2BDCA043D56 /* [CP] Check Pods Manifest.lock */,
 				0464174B22F61B8E00D27A1B /* Sources */,
 				0464174C22F61B8E00D27A1B /* Frameworks */,
 				0464174D22F61B8E00D27A1B /* Resources */,
+				7ACF93945E5D1F5E1EE4C6C4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -188,6 +293,7 @@
 			files = (
 				0464174422F618E100D27A1B /* LaunchScreen.storyboard in Resources */,
 				0464174122F618E100D27A1B /* Assets.xcassets in Resources */,
+				04AD365223020DDB0034D5FF /* GoogleService-Info.plist in Resources */,
 				0464173F22F618E000D27A1B /* Main.storyboard in Resources */,
 				0464176422F77E9200D27A1B /* LoginStoryBoard.storyboard in Resources */,
 			);
@@ -199,11 +305,133 @@
 			files = (
 				0464175C22F61B8E00D27A1B /* LaunchScreen.storyboard in Resources */,
 				0464176222F61BF600D27A1B /* Assets.xcassets in Resources */,
+				04AD36542302103F0034D5FF /* GoogleService-Info.plist in Resources */,
 				0464175722F61B8E00D27A1B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		72CA50C5878CA2BDCA043D56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZeeAdmin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7ACF93945E5D1F5E1EE4C6C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ZeeAdmin/Pods-ZeeAdmin-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/CodableFirebase/CodableFirebase.framework",
+				"${BUILT_PRODUCTS_DIR}/CropViewController/CropViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CodableFirebase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CropViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZeeAdmin/Pods-ZeeAdmin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD4B63601EF6AC29DFF69209 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZeeTee-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F13D048AAF40AC88991C58BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ZeeTee/Pods-ZeeTee-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/CodableFirebase/CodableFirebase.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Stripe/Stripe.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CodableFirebase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Stripe.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZeeTee/Pods-ZeeTee-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0464173222F618E000D27A1B /* Sources */ = {
@@ -211,7 +439,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0464173C22F618E000D27A1B /* ViewController.swift in Sources */,
+				04AD365C23029C8F0034D5FF /* RegisterVC.swift in Sources */,
 				0464173A22F618E000D27A1B /* AppDelegate.swift in Sources */,
+				04AD365F2302A6F00034D5FF /* extension.swift in Sources */,
+				040FBB47231C564A00E7BE6A /* RoundedViews.swift in Sources */,
+				04AD365A23029C6D0034D5FF /* LoginVC.swift in Sources */,
+				040FBB442304A1B000E7BE6A /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +613,7 @@
 		};
 		0464174922F618E100D27A1B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7101F563CEBCE03F43B6631C /* Pods-ZeeTee.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -398,6 +632,7 @@
 		};
 		0464174A22F618E100D27A1B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBC19DAB2B5481DDCBA54F47 /* Pods-ZeeTee.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -416,6 +651,7 @@
 		};
 		0464175F22F61B8E00D27A1B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F372A604985BF8377EE1D9BE /* Pods-ZeeAdmin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -434,6 +670,7 @@
 		};
 		0464176022F61B8E00D27A1B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA783D2E631901113A5B0F80 /* Pods-ZeeAdmin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

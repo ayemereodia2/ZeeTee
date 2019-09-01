@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>295083712082-gaf29i39kuu47c3avqvbl1mujm9ufhqr.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.295083712082-gaf29i39kuu47c3avqvbl1mujm9ufhqr</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDsHJVHu3wSYzjyZZWNVyIl1jGJHxc4GWA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>295083712082</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>wox1.ZeeTee</string>
+	<key>PROJECT_ID</key>
+	<string>zeetee-6b103</string>
+	<key>STORAGE_BUCKET</key>
+	<string>zeetee-6b103.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:295083712082:ios:253e92bd491ebb39</string>
+	<key>DATABASE_URL</key>
+	<string>https://zeetee-6b103.firebaseio.com</string>
+</dict>
+</plist>

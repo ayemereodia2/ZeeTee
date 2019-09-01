@@ -1,0 +1,6 @@
+framework module Pods_ZeeTee {
+  umbrella header "Pods-ZeeTee-umbrella.h"
+
+  export *
+  module * { export * }
+}
